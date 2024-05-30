@@ -2,4 +2,3 @@
  "type": "custom",
  "functionString": "function($,u=.5){if(u<=0)throw Error('Intensity should be a positive number');let _=['̀','́','̂','̃','̄','̅','̆','̇','̈','̉','̊','̋','̌','̍','̎','̏','̐','̑','̒','̓','̔','̕','̖','̗','̘','̙','̚','̛','̜','̝','̞','̟','̠','̡','̢','̣','̤','̥','̦','̧','̨','̩','̪','̫','̬','̭','̮','̯','̰','̱','̲','̳','̴','̵','̶','̷','̸','̹','̺','̻','̼','̽','̾','̿','̀','́','͂','̓','̈́','ͅ','͆','͇','͈','͉','͊','͋','͌','͍','͎','͏','͐','͑','͒','͓','͔','͕','͖','͗','͘','͙','͚','͛','͜','͝','͞','͟','͠','͡','͢','ͣ','ͤ','ͥ','ͦ','ͧ','ͨ','ͩ','ͪ','ͫ','ͬ','ͭ','ͮ','ͯ'],o='';for(let t of $)if(o+=t,Math.random()<u)for(let r=0;r<Math.floor(10*Math.random())+1;r++)o+=_[Math.floor(Math.random()*_.length)];return o}"
 }
-//Params: Text: the text to Glitchify, Intensity: The glitchiness intensity of the glitch text.
