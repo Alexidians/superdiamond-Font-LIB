@@ -1,0 +1,4 @@
+{
+ "type": "custom",
+  "functionString": "function strikethroughText(t){return t.split('').map(t=>t+'̶').join('')}"
+}
