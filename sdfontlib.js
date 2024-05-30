@@ -12,10 +12,7 @@ var SDFonts = {
  },
  load: async function(url,name) {
   var request = await fetch(url);
-  var UnParsedFontString = await request.text();
-  var HalfParsedFontString = UnParsedFontString.replace(/\/\/.*?\n/g, '');
-  var StringFont = HalfParsedFontString.replace(/\/\*[\s\S]*?\*\//g, '');
-  var font = JSON.parse(StringFont);
+  var font = await request.text();
   SDFonts.fonts[name] = font;
  }
 }
