@@ -1,0 +1,4 @@
+{
+ "type": "custom",
+ "functionString": "function(e){let t='';for(let r=0;r<e.length;r++)r%2==0?t+=e[r].toLowerCase():t+=e[r].toUpperCase();return t}"
+}
