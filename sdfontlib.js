@@ -2,7 +2,7 @@ var SDFonts = {
  fonts: {},
  GenFont: function(name, ...params) {
    if(SDFonts.fonts[name].type == "custom") {
-    var func = eval(SDFonts.fonts[name].functionString);
+    eval("var func = "SDFonts.fonts[name].functionString);
     return func(...params);
    }
    if(SDFonts.fonts[name].type == "mapping") {
