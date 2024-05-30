@@ -14,5 +14,8 @@ var SDFonts = {
   var request = await fetch(url);
   var font = await request.text();
   SDFonts.fonts[name] = font;
+ },
+ unload: function(name) {
+  delete SDFonts.fonts[name];
  }
 }
