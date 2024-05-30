@@ -1,0 +1,4 @@
+{
+ "type": "custom",
+ "functionString": "function(n){return n.split('').map(n=>n+'̲').join('')}"
+}
